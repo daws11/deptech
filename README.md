@@ -1,6 +1,6 @@
-# Deptech - Sistem Manajemen Karyawan
+# Deptech Interview - Sistem Manajemen Karyawan
 
-Deptech adalah sistem manajemen karyawan yang dibangun menggunakan Laravel dan Tailwind CSS. Sistem ini menyediakan fitur-fitur untuk mengelola data karyawan, cuti, dan administrasi perusahaan.
+Sistem manajemen karyawan yang dibangun menggunakan Laravel dan Tailwind CSS. Sistem ini menyediakan fitur-fitur untuk mengelola data karyawan, cuti, dan administrasi perusahaan.
 
 ## Fitur Utama
 
@@ -47,7 +47,7 @@ Deptech adalah sistem manajemen karyawan yang dibangun menggunakan Laravel dan T
 
 1. Clone repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/daws11/deptech.git
 cd deptech
 ```
 
@@ -68,7 +68,7 @@ php artisan key:generate
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=departech
+DB_DATABASE=deptech
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -163,22 +163,3 @@ npm run dev
 ```bash
 php artisan test
 ```
-
-## Kontribusi
-
-1. Fork repository
-2. Buat branch fitur (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE.md](LICENSE.md) untuk detailnya.
-
-## Kontak
-
-Nama - [@your_twitter](https://twitter.com/your_twitter)
-Email - your.email@example.com
-
-Link Project: [https://github.com/yourusername/departech](https://github.com/yourusername/departech)
